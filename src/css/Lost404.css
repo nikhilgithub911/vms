@@ -1,0 +1,149 @@
+/* NotFound.css */
+
+/* Animate headStripe */
+#headStripe {
+    animation: headStripeAnimation 1s infinite alternate ease-in-out;
+  }
+  
+  /* Animate spaceman */
+  #spaceman {
+    animation: spacemanAnimation 1s infinite alternate ease-in-out;
+  }
+  
+  /* Animate craterSmall */
+  #craterSmall {
+    animation: craterSmallAnimation 1s infinite alternate ease-in-out;
+  }
+  
+  /* Animate craterBig */
+  #craterBig {
+    animation: craterBigAnimation 1s infinite alternate ease-in-out;
+  }
+  
+  /* Animate planet */
+  #planet {
+    animation: planetAnimation 1s infinite alternate ease-in-out;
+  }
+  
+  /* Animate starsBig group */
+  #starsBig  g{
+    animation: starsBigAnimation 1s infinite alternate ease-in-out;
+    transform-origin: center; 
+  }
+  
+  /* Animate starsSmall group */
+  #starsSmall  g{
+    animation: starsSmallAnimation 1s infinite alternate ease-in-out;
+    transform-origin: center; 
+
+  }
+  
+  /* Animate circlesSmall circles */
+  #circlesSmall circle {
+    animation: circlesSmallAnimation 1s infinite alternate ease-in-out;
+  }
+  
+  /* Animate circlesBig circles */
+  #circlesBig circle {
+    animation: circlesBigAnimation 1s infinite alternate ease-in-out;
+  }
+  
+  /* Animate glassShine */
+  @keyframes glassShineAnimation {
+    0% {
+      transform: translateX(-68px) rotate(-30deg);
+    }
+    50% {
+      transform: translateX(68px) rotate(-30deg);
+    }
+    100% {
+      transform: translateX(68px) rotate(-30deg);
+    }
+  }
+  
+  #glassShine {
+    animation: glassShineAnimation 2s ease-in-out infinite alternate;
+    transform-origin: 50% 50%;
+    animation-delay: 7s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+  }
+  
+  /* Add more styles for your burger and nav elements if needed */
+  
+  /* Example styles for the burger and nav, you might want to customize them */
+
+
+  
+  @keyframes spacemanAnimation {
+    0% {
+      transform: translateY(0.5px) rotate(1deg);
+    }
+    100% {
+      transform: translateY(-0.5px) rotate(-1deg);
+    }
+  }
+  
+  @keyframes craterSmallAnimation {
+    0% {
+      transform: translateX(3px);
+    }
+    100% {
+      transform: translateX(-3px);
+    }
+  }
+  
+  @keyframes craterBigAnimation {
+    0% {
+      transform: translateX(-3px);
+    }
+    100% {
+      transform: translateX(3px);
+    }
+  }
+  
+  @keyframes planetAnimation {
+    0% {
+      transform: rotate(-1deg);
+    }
+    100% {
+      transform: rotate(1deg);
+    }
+  }
+  
+  @keyframes starsBigAnimation {
+    0% {
+        transform: translateY(0.5px) rotate(1deg);
+      }
+      100% {
+        transform: translateY(-0.5px) rotate(-1deg);
+      }
+  }
+  
+  @keyframes starsSmallAnimation {
+    0% {
+        transform: translateY(0.5px) rotate(1deg);
+      }
+      100% {
+        transform: translateY(-0.5px) rotate(-1deg);
+      }
+  }
+  
+  @keyframes circlesSmallAnimation {
+    0% {
+      transform: translateY(-4px);
+    }
+    100% {
+      transform: translateY(4px);
+    }
+  }
+  
+  @keyframes circlesBigAnimation {
+    0% {
+      transform: translateY(-2px);
+    }
+    100% {
+      transform: translateY(2px);
+    }
+  }
+  

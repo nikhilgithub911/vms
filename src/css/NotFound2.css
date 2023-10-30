@@ -1,0 +1,123 @@
+/* CSS Animation for headStripe */
+@keyframes headStripeAnimation {
+    0% {
+      transform: translateY(0.5px) rotate(1deg);
+    }
+    50% {
+      transform: translateY(0.5px) rotate(1deg);
+    }
+    100% {
+      transform: translateY(0.5px) rotate(1deg);
+    }
+  }
+  
+  #headStripe {
+    animation: headStripeAnimation 1s ease-in-out infinite alternate;
+  }
+  
+  /* CSS Animation for spaceman */
+  @keyframes spacemanAnimation {
+    0% {
+      transform: translateY(0.5px) rotate(1deg);
+    }
+    50% {
+      transform: translateY(0.5px) rotate(1deg);
+    }
+    100% {
+      transform: translateY(0.5px) rotate(1deg);
+    }
+  }
+  
+  #spaceman {
+    animation: spacemanAnimation 1s ease-in-out infinite alternate;
+  }
+  
+  /* CSS Animation for craterSmall */
+  @keyframes craterSmallAnimation {
+    0% {
+      transform: translateX(-3px);
+    }
+    50% {
+      transform: translateX(-3px);
+    }
+    100% {
+      transform: translateX(-3px);
+    }
+  }
+  
+  #craterSmall {
+    animation: craterSmallAnimation 1s ease-in-out infinite alternate;
+  }
+  
+  /* CSS Animation for craterBig */
+  @keyframes craterBigAnimation {
+    0% {
+      transform: translateX(3px);
+    }
+    50% {
+      transform: translateX(3px);
+    }
+    100% {
+      transform: translateX(3px);
+    }
+  }
+  
+  #craterBig {
+    animation: craterBigAnimation 1s ease-in-out infinite alternate;
+  }
+  
+  /* CSS Animation for planet */
+  @keyframes planetAnimation {
+    0% {
+      transform: rotate(-2deg);
+    }
+    50% {
+      transform: rotate(2deg);
+    }
+    100% {
+      transform: rotate(-2deg);
+    }
+  }
+  
+  #planet {
+    animation: planetAnimation 1s ease-in-out infinite alternate;
+  }
+  
+  /* Add more animations for other elements */
+  
+  /* CSS Animation for glassShine */
+  @keyframes glassShineAnimation {
+    0% {
+      transform: translateX(-68px) rotate(-30deg);
+    }
+    50% {
+      transform: translateX(68px) rotate(-30deg);
+    }
+    100% {
+      transform: translateX(68px) rotate(-30deg);
+    }
+  }
+  
+  #glassShine {
+    animation: glassShineAnimation 3s ease-in-out infinite alternate;
+    transform-origin: 50% 50%;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  /* CSS Animation for burger and nav - Use CSS transitions for toggling */
+  .burger {
+    cursor: pointer;
+    /* Add styles for burger icon */
+  }
+  
+  nav {
+    /* Add styles for navigation */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Add more styles and animations for other elements */
+  
+  /* Toggle animation states using CSS classes or pseudo-classes */
+  

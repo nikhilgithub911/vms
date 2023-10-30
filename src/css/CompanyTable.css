@@ -1,0 +1,21 @@
+
+.toastify-custom {
+  background-color:white !important; 
+  color: black!important; 
+}
+
+
+.toastify-custom .Toastify__progress-bar--success {
+  background-color: rgb(109, 169, 192) !important; 
+}
+
+
+.toastify-custom .Toastify__icon--success svg {
+  fill: rgb(93, 187, 241) !important; 
+}
+
+.toastify-custom .Toastify__icon--success svg path {
+    fill: rgb(102, 154, 225) !important; 
+  }
+
+

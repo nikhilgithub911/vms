@@ -1,0 +1,19 @@
+.icon{
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    
+   
+    
+}
+
+.icon:hover{
+   background-color: rgb(227, 209, 242);
+   cursor:pointer
+   
+}
+
+ h2{
+    color:"white"
+}
+
+/* rgb(147, 241, 227) */
